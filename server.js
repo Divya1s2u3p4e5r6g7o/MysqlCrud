@@ -24,7 +24,7 @@ const bodyparser = require('body-parser');
 app.use(bodyparser.urlencoded({extended : true}));
 app.use(bodyparser.json());
 
-
+console.log("port")
 
 module.exports=app.listen(5000, () => {
     console.log("API SERVER PORT IS RUNNING ON :" + 5000);
