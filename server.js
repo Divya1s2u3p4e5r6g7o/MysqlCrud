@@ -32,5 +32,5 @@ module.exports=app.listen(5000, () => {
    
   })
 
-
+console.log("server")
 var bookRoutes = require('./routes/book.route')(app);//importing route
